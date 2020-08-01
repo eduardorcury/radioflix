@@ -1,150 +1,156 @@
 {
-    "categorias": [
-      {
-        "id": 1,
-        "titulo": "The Bends",
-        "cor": "#ab2b2b",
-        "descricao": "Segundo álbum (1995)"
-      },
-      {
-        "id": 2,
-        "titulo": "OK Computer",
-        "cor": "#6BD1FF",
-        "descricao": "Terceiro álbum (1997)"
-      },
-      {
-        "id": 3,
-        "titulo": "In Rainbows",
-        "cor": "#88942e",
-        "descricao": "Sétimo álbum (2007)"
-      },
-      {
-        "id": 4,
-        "titulo": "From the Basement",
-        "cor": "#2d6639",
-        "descricao": "Performances live de In Rainbows"
-      }
-     ],
-    "videos": [
-      {
-        "id": 1,
-        "categoriaId": 1,
-        "titulo": "My Iron Lung",
-        "url": "https://www.youtube.com/watch?v=pRU-6vaKaf4"
-      },
-      {
-        "id": 2,
-        "categoriaId": 1,
-        "titulo": "High and Dry",
-        "url": "https://www.youtube.com/watch?v=7qFfFVSerQo"
-      },
-      {
-        "id": 3,
-        "categoriaId": 1,
-        "titulo": "Fake Plastic Trees",
-        "url": "https://www.youtube.com/watch?v=n5h0qHwNrHk"
-      },
-      {
-        "id": 4,
-        "categoriaId": 1,
-        "titulo": "Just",
-        "url": "https://www.youtube.com/watch?v=oIFLtNYI3Ls"
-      },
-      {
-        "id": 5,
-        "categoriaId": 1,
-        "titulo": "Street Spirit (Fade Out)",
-        "url": "https://www.youtube.com/watch?v=LCJblaUkkfc"
-      },
-      {
-        "id": 6,
-        "categoriaId": 2,
-        "titulo": "Paranoid Android",
-        "url": "https://www.youtube.com/watch?v=fHiGbolFFGw"
-      },
-      {
-        "id": 7,
-        "categoriaId": 2,
-        "titulo": "Karma Police",
-        "url": "https://www.youtube.com/watch?v=1uYWYWPc9HU"
-      },
-      {
-        "id": 8,
-        "categoriaId": 2,
-        "titulo": "No Surpises",
-        "url": "https://www.youtube.com/watch?v=u5CVsCnxyXg"
-      },
-      {
-        "id": 9,
-        "categoriaId": 2,
-        "titulo": "Man of War",
-        "url": "https://www.youtube.com/watch?v=DXP1KdZX4io"
-      },
-      {
-        "id": 10,
-        "categoriaId": 2,
-        "titulo": "I Promise",
-        "url": "https://www.youtube.com/watch?v=0sFvFVkeGVg"
-      },
-      {
-        "id": 11,
-        "categoriaId": 3,
-        "titulo": "Jigsaw Falling into Place",
-        "url": "https://www.youtube.com/watch?v=GoLJJRIWCLU"
-      },
-      {
-        "id": 12,
-        "categoriaId": 3,
-        "titulo": "Nude",
-        "url": "https://www.youtube.com/watch?v=BbWBRnDK_AE"
-      },
-      {
-        "id": 13,
-        "categoriaId": 3,
-        "titulo": "Reckoner",
-        "url": "https://www.youtube.com/watch?v=_uofQD-N6UI"
-      },
-      {
-        "id": 14,
-        "categoriaId": 3,
-        "titulo": "Weird Fishes",
-        "url": "https://www.youtube.com/watch?v=TNRCvG9YtYI"
-      },
-      {
-        "id": 15,
-        "categoriaId": 4,
-        "titulo": "Weird Fishes / Arpeggi",
-        "url": "https://www.youtube.com/watch?v=ejdZEe4Rd0o"
-      },
-      {
-        "id": 16,
-        "categoriaId": 4,
-        "titulo": "15 Step",
-        "url": "https://www.youtube.com/watch?v=kXl0F9oF92E"
-      },
-      {
-        "id": 17,
-        "categoriaId": 4,
-        "titulo": "All I Need",
-        "url": "https://www.youtube.com/watch?v=t2DWy__LS6o"
-      },
-      {
-        "id": 18,
-        "categoriaId": 4,
-        "titulo": "Reckoner",
-        "url": "https://www.youtube.com/watch?v=2FMP-9bn9N8"
-      },
-      {
-        "id": 19,
-        "categoriaId": 4,
-        "titulo": "Nude",
-        "url": "https://www.youtube.com/watch?v=b_jj9r4b5i4"
-      },
-      {
-        "id": 20,
-        "categoriaId": 4,
-        "titulo": "Videotape",
-        "url": "https://www.youtube.com/watch?v=BTsH6jcyJgw"
-      }
-    ]
-  }
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "The Bends",
+      "cor": "#ab2b2b",
+      "descricao": "Segundo álbum (1995)"
+    },
+    {
+      "id": 2,
+      "titulo": "OK Computer",
+      "cor": "#6BD1FF",
+      "descricao": "Terceiro álbum (1997)"
+    },
+    {
+      "id": 3,
+      "titulo": "In Rainbows",
+      "cor": "#88942e",
+      "descricao": "Sétimo álbum (2007)"
+    },
+    {
+      "id": 4,
+      "titulo": "From the Basement",
+      "cor": "#2d6639",
+      "descricao": "Performances live de In Rainbows"
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "My Iron Lung",
+      "url": "https://www.youtube.com/watch?v=pRU-6vaKaf4"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "High and Dry",
+      "url": "https://www.youtube.com/watch?v=7qFfFVSerQo"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Fake Plastic Trees",
+      "url": "https://www.youtube.com/watch?v=n5h0qHwNrHk"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Just",
+      "url": "https://www.youtube.com/watch?v=oIFLtNYI3Ls"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Street Spirit (Fade Out)",
+      "url": "https://www.youtube.com/watch?v=LCJblaUkkfc"
+    },
+    {
+      "id": 6,
+      "categoriaId": 2,
+      "titulo": "Paranoid Android",
+      "url": "https://www.youtube.com/watch?v=fHiGbolFFGw"
+    },
+    {
+      "id": 7,
+      "categoriaId": 2,
+      "titulo": "Karma Police",
+      "url": "https://www.youtube.com/watch?v=1uYWYWPc9HU"
+    },
+    {
+      "id": 8,
+      "categoriaId": 2,
+      "titulo": "No Surpises",
+      "url": "https://www.youtube.com/watch?v=u5CVsCnxyXg"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "Man of War",
+      "url": "https://www.youtube.com/watch?v=DXP1KdZX4io"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "I Promise",
+      "url": "https://www.youtube.com/watch?v=0sFvFVkeGVg"
+    },
+    {
+      "id": 11,
+      "categoriaId": 3,
+      "titulo": "Jigsaw Falling into Place",
+      "url": "https://www.youtube.com/watch?v=GoLJJRIWCLU"
+    },
+    {
+      "id": 12,
+      "categoriaId": 3,
+      "titulo": "Nude",
+      "url": "https://www.youtube.com/watch?v=BbWBRnDK_AE"
+    },
+    {
+      "id": 13,
+      "categoriaId": 3,
+      "titulo": "Reckoner",
+      "url": "https://www.youtube.com/watch?v=_uofQD-N6UI"
+    },
+    {
+      "id": 14,
+      "categoriaId": 3,
+      "titulo": "Weird Fishes",
+      "url": "https://www.youtube.com/watch?v=TNRCvG9YtYI"
+    },
+    {
+      "id": 15,
+      "categoriaId": 4,
+      "titulo": "Weird Fishes / Arpeggi",
+      "url": "https://www.youtube.com/watch?v=ejdZEe4Rd0o"
+    },
+    {
+      "id": 16,
+      "categoriaId": 4,
+      "titulo": "15 Step",
+      "url": "https://www.youtube.com/watch?v=kXl0F9oF92E"
+    },
+    {
+      "id": 17,
+      "categoriaId": 4,
+      "titulo": "All I Need",
+      "url": "https://www.youtube.com/watch?v=t2DWy__LS6o"
+    },
+    {
+      "id": 18,
+      "categoriaId": 4,
+      "titulo": "Reckoner",
+      "url": "https://www.youtube.com/watch?v=2FMP-9bn9N8"
+    },
+    {
+      "id": 19,
+      "categoriaId": 4,
+      "titulo": "Nude",
+      "url": "https://www.youtube.com/watch?v=b_jj9r4b5i4"
+    },
+    {
+      "id": 20,
+      "categoriaId": 4,
+      "titulo": "Videotape",
+      "url": "https://www.youtube.com/watch?v=BTsH6jcyJgw"
+    },
+    {
+      "titulo": "Video padrão",
+      "url": "https://www.youtube.com/watch?v=pRU-6vaKaf4",
+      "categoriaId": 1,
+      "id": 21
+    }
+  ]
+}
