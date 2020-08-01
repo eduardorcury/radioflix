@@ -2,25 +2,25 @@
     "categorias": [
       {
         "id": 1,
-        "nome": "The Bends",
+        "titulo": "The Bends",
         "cor": "#6BD1FF",
         "descricao": "Segundo álbum (1995)"
       },
       {
         "id": 2,
-        "nome": "OK Computer",
+        "titulo": "OK Computer",
         "cor": "#6BD1FF",
         "descricao": "Terceiro álbum (1997)"
       },
       {
         "id": 3,
-        "nome": "In Rainbows",
+        "titulo": "In Rainbows",
         "cor": "#6BD1FF",
         "descricao": "Sétimo álbum (2007)"
       },
       {
         "id": 4,
-        "nome": "From the Basement",
+        "titulo": "From the Basement",
         "cor": "#6BD1FF",
         "descricao": "Performances live de In Rainbows"
       }
@@ -107,8 +107,8 @@
       {
         "id": 14,
         "categoriaId": 3,
-        "titulo": "Jigsaw Falling into Place",
-        "url": "https://www.youtube.com/watch?v=GoLJJRIWCLU"
+        "titulo": "Weird Fishes",
+        "url": "https://www.youtube.com/watch?v=TNRCvG9YtYI"
       },
       {
         "id": 15,
