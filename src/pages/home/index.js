@@ -29,12 +29,12 @@ function Home() {
           return (
             <div key={categoria.id}>
               <BannerMain
-                videoTitle={dadosIniciais[0].videos[0].titulo}
-                url={dadosIniciais[0].videos[0].url}
-                videoDescription={dadosIniciais[0].videos[0].description}
+                videoTitle={dadosIniciais[1].videos[2].titulo}
+                url={dadosIniciais[1].videos[2].url}
+                videoDescription={dadosIniciais[1].videos[2].description}
               />
               <Carousel
-                ignoreFirstVideo
+                //ignoreFirstVideo
                 category={dadosIniciais[0]}
               />
             </div>

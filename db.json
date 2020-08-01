@@ -3,7 +3,7 @@
       {
         "id": 1,
         "titulo": "The Bends",
-        "cor": "#6BD1FF",
+        "cor": "#ab2b2b",
         "descricao": "Segundo álbum (1995)"
       },
       {
@@ -15,13 +15,13 @@
       {
         "id": 3,
         "titulo": "In Rainbows",
-        "cor": "#6BD1FF",
+        "cor": "#88942e",
         "descricao": "Sétimo álbum (2007)"
       },
       {
         "id": 4,
         "titulo": "From the Basement",
-        "cor": "#6BD1FF",
+        "cor": "#2d6639",
         "descricao": "Performances live de In Rainbows"
       }
      ],
