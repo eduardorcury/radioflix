@@ -4,6 +4,7 @@ import PageDefault from '../../../components/PageDefault';
 import useForm from '../../../hooks/useForm';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
+import FormButton from '../../../components/FormButton';
 import videosRepository from '../../../repositories/videos';
 import categoriasRepository from '../../../repositories/categorias';
 
@@ -29,7 +30,7 @@ function CadastroVideo() {
 
   return (
     <PageDefault>
-      <h1>Cadastro de Video</h1>
+      <h1>Cadastro de Vídeo</h1>
 
       <form onSubmit={(event) => {
         event.preventDefault();
@@ -71,17 +72,21 @@ function CadastroVideo() {
           suggestions={categoryTitles}
         />
 
-        <Button type="submit">
-          Cadastrar
-        </Button>
+        <FormButton 
+          type="submit" >
+          Cadastrar novo vídeo
+        </FormButton>
       </form>
 
       <br />
+
+      <FormButton as={Link} className='ButtonLink' to='/cadastro/categoria'>
+        Cadastrar nova categoria
+      </FormButton>
+
+      <br />
       <br />
 
-      <Link to="/cadastro/categoria">
-        Cadastrar Categoria
-      </Link>
     </PageDefault>
   );
 }
