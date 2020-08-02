@@ -1,4 +1,4 @@
-const URL = 'http://localhost:8081'
+const URL = 'https://radioflix-api.herokuapp.com'
 
 export default {
     URL,

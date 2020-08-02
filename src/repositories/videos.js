@@ -3,7 +3,7 @@ import config from '../config';
 const URL_VIDEOS = `${config.URL}/videos`;
 
 function create(objetoDoVideo) {
-  return fetch(`${URL_VIDEOS}?_embed=videos`, {
+  return fetch(`${URL_VIDEOS}`, {
     method: 'POST',
     headers: {
       'Content-type': 'application/json',
