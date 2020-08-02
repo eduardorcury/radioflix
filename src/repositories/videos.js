@@ -12,7 +12,7 @@ function create(objetoDoVideo) {
   })
     .then(async (respostaDoServidor) => {
       if (respostaDoServidor.ok) {
-        const resposta = await respostaDoServidor.json();
+        const resposta = await respostaDoServidor;
         return resposta;
       }
 

@@ -3,7 +3,6 @@ import { Link, useHistory } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import useForm from '../../../hooks/useForm';
 import FormField from '../../../components/FormField';
-import Button from '../../../components/Button';
 import FormButton from '../../../components/FormButton';
 import videosRepository from '../../../repositories/videos';
 import categoriasRepository from '../../../repositories/categorias';
@@ -42,7 +41,7 @@ function CadastroVideo() {
         videosRepository.create({
           titulo: values.titulo,
           url: values.url,
-          categoriaId: categoriaEscolhida.id,
+          categoria: categoriaEscolhida.titulo,
         })
           .then(() => {
             console.log('Cadastrou com sucesso!');

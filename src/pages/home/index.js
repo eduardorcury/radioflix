@@ -31,7 +31,7 @@ function Home() {
               <BannerMain
                 videoTitle={dadosIniciais[1].videos[2].titulo}
                 url={dadosIniciais[1].videos[2].url}
-                videoDescription={dadosIniciais[1].videos[2].description}
+                videoDescription='‘No Surprises’ is taken from ‘OK Computer’ out on XL Recordings.'
               />
               <Carousel
                 //ignoreFirstVideo
